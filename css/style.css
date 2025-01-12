@@ -6,26 +6,6 @@ body {
     font-family: "Emilys Candy", serif;
 }
 
-.menu {
-    width: 100%;
-    background-color: #ccb3ff;
-}
-
-.menu-content {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    font-size: 20px;
-    margin: 0;
-    padding: 20px 0;
-}
-
-.menu li {
-    list-style: none;
-    color: #fff;
-}
-
 .container {
     padding: 30px 150px;
     display: flex;
@@ -37,9 +17,11 @@ body {
 
 .content {
     width: 80%;
-    height: 400px;
+    height: 600px;
     box-shadow: 3px 3px 5px 6px #ccc;
     border-radius: 25px;
+    background-size: cover;
+    background-position: center;
 }
 
 .content .top-line {
@@ -50,6 +32,18 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.img1 {
+    background-image: url("../images/crochet.jpg");
+}
+
+.img2 {
+    background-image: url("../images/movies.jpg");
+}
+
+.img3 {
+    background-image: url("../images/coding.jpg");
 }
 
 .dots {
